@@ -1,7 +1,7 @@
 
 
 export interface Marks {
-  json: any;
+  readonly json: any;
 }
 
 export type Mark = keyof Marks;
