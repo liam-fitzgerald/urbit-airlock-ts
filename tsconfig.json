@@ -1,0 +1,13 @@
+{
+  "include": ["lib/**/*.ts"],
+  "exclude": ["node_modules", "dist", "@types"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "target": "es2015",
+    "pretty": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true
+  }
+}
